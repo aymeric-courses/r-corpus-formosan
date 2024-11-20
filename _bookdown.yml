@@ -1,4 +1,4 @@
-book_filename: "bookdown-demo"
+book_filename: "Formosan languages: R and corpus-based studies"
 output_dir: "docs"
 language:
   ui:
