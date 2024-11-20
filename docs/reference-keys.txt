@@ -1,6 +1,11 @@
 fig:nice-fig
 tab:nice-tab
-prerequisites
+welcome-to-the-tutorial-on-formosan-languages-corpus-and-rrstudio
+objectives-of-the-tutorial
+who-is-this-tutorial-for
+do-i-need-any-background
+which-public
+news
 intro
 literature
 methods

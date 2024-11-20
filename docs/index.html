@@ -4,23 +4,23 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>A Minimal Book Example</title>
-  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <title>Formosan languages: R and corpus-based studies</title>
+  <meta name="description" content="This is the website of the tutorial on Formosan languages, corpus-based studies and R/RStudio." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="A Minimal Book Example" />
+  <meta property="og:title" content="Formosan languages: R and corpus-based studies" />
   <meta property="og:type" content="book" />
   
-  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta property="og:description" content="This is the website of the tutorial on Formosan languages, corpus-based studies and R/RStudio." />
+  
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="A Minimal Book Example" />
+  <meta name="twitter:title" content="Formosan languages: R and corpus-based studies" />
   
-  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="twitter:description" content="This is the website of the tutorial on Formosan languages, corpus-based studies and R/RStudio." />
   
 
-<meta name="author" content="Yihui Xie" />
+<meta name="author" content="Aymeric Collart" />
 
 
 <meta name="date" content="2024-11-20" />
@@ -162,7 +162,16 @@ div.csl-indent {
 <li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome to the tutorial on “Formosan languages, corpus and R/RStudio”</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#objectives-of-the-tutorial"><i class="fa fa-check"></i><b>1.1</b> Objectives of the tutorial</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#who-is-this-tutorial-for"><i class="fa fa-check"></i><b>1.2</b> Who is this tutorial for?</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#do-i-need-any-background"><i class="fa fa-check"></i><b>1.2.1</b> <strong>1- Do I need any background?</strong></a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#which-public"><i class="fa fa-check"></i><b>1.2.2</b> <strong>2- Which public?</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#news"><i class="fa fa-check"></i><b>1.3</b> News</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
 <li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a></li>
 <li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a>
@@ -188,7 +197,7 @@ div.csl-indent {
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Formosan languages: R and corpus-based studies</a>
           </h1>
         </div>
 
@@ -197,20 +206,40 @@ div.csl-indent {
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title">A Minimal Book Example</h1>
-<p class="author"><em>Yihui Xie</em></p>
+<h1 class="title">Formosan languages: R and corpus-based studies</h1>
+<p class="author"><em>Aymeric Collart</em></p>
 <p class="date"><em>2024-11-20</em></p>
 </div>
-<div id="prerequisites" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Prerequisites<a href="index.html#prerequisites" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
-<span id="cb1-2"><a href="index.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or the development version</span></span>
-<span id="cb1-3"><a href="index.html#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.org/tinytex/" class="uri">https://yihui.org/tinytex/</a>.</p>
+<div id="welcome-to-the-tutorial-on-formosan-languages-corpus-and-rrstudio" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Welcome to the tutorial on “Formosan languages, corpus and R/RStudio”<a href="index.html#welcome-to-the-tutorial-on-formosan-languages-corpus-and-rrstudio" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="objectives-of-the-tutorial" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Objectives of the tutorial<a href="index.html#objectives-of-the-tutorial" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this tutorial, you will learn:</p>
+<ul>
+<li><p>how to download data from the Internet automatically and quickly,</p></li>
+<li><p>how to process the downloaded data without spending a lot of time with manual tasks,</p></li>
+<li><p>how to create summary tables and images to analyze your data.</p></li>
+</ul>
+</div>
+<div id="who-is-this-tutorial-for" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Who is this tutorial for?<a href="index.html#who-is-this-tutorial-for" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="do-i-need-any-background" class="section level3 hasAnchor" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> <strong>1- Do I need any background?</strong><a href="index.html#do-i-need-any-background" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>You do not need any particular background.</p>
+<p>This tutorial will start with the very basics. If you are already familiar with coding and/or the RStudio interface, it will of course be easier for you.</p>
+</div>
+<div id="which-public" class="section level3 hasAnchor" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> <strong>2- Which public?</strong><a href="index.html#which-public" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Anyone interested in Formosan languages<sup><a href="https://aymeric-courses.github.io/formosan-corpus-r/#footnote1">[1]</a></sup> is welcome to take this tutorial, regardless if you are an undergraduate or graduate student, research assistant or just curious about quantitative methods and Formosan languages.</p>
+</div>
+</div>
+<div id="news" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> News<a href="index.html#news" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Note:</strong> The webpage of this tutorial has just been created. That’s why it looks quite empty and some pages not at their right place. Stay tuned for further developments!</p>
+<hr />
+<p>[1] I use the term ‘Formosan languages’ as the Austronesian languages from Taiwan, including Yami (even though from a typological perspective, Yami is not a Formosan language).</p>
 
+</div>
 </div>
             </section>
 
@@ -260,7 +289,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"download": ["Formosan languages: R and corpus-based studies.pdf", "Formosan languages: R and corpus-based studies.epub"],
 "search": {
 "engine": "fuse",
 "options": null
