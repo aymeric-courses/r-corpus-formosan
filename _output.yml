@@ -16,3 +16,8 @@ bookdown::pdf_book:
   keep_tex: yes
 bookdown::epub_book: default
 bookdown::bs4_book: default
+toc:
+  collapse: section
+sharing:
+  github: yes
+  twitter: yes

@@ -12,6 +12,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "This is the website of the tutorial on Formosan languages, corpus-based studies and R/RStudio."
+cover-image: https://unsplash.com/fr/photos/une-personne-debout-dans-lobscurite-regardant-les-etoiles-HCyqiQT9_xI
 ---
 
 # Welcome to the tutorial on "Formosan languages, corpus and R/RStudio"
